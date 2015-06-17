@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B0BA16721B2CD79E009CFBD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA16711B2CD79E009CFBD0 /* AppDelegate.swift */; };
-		B0BA16741B2CD79E009CFBD0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA16731B2CD79E009CFBD0 /* FirstViewController.swift */; };
-		B0BA16761B2CD79E009CFBD0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA16751B2CD79E009CFBD0 /* SecondViewController.swift */; };
-		B0BA16791B2CD79E009CFBD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BA16771B2CD79E009CFBD0 /* Main.storyboard */; };
+		B0BA16791B2CD79E009CFBD0 /* MainStoryboardIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BA16771B2CD79E009CFBD0 /* MainStoryboardIPhone.storyboard */; };
 		B0BA167B1B2CD79E009CFBD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BA167A1B2CD79E009CFBD0 /* Images.xcassets */; };
 		B0BA167E1B2CD79E009CFBD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BA167C1B2CD79E009CFBD0 /* LaunchScreen.xib */; };
 		B0BA168A1B2CD79F009CFBD0 /* StudentAanHuisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA16891B2CD79F009CFBD0 /* StudentAanHuisTests.swift */; };
+		B0BA16961B2CD8D8009CFBD0 /* PinBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA16951B2CD8D8009CFBD0 /* PinBoardViewController.swift */; };
+		B0BA16981B2CDE40009CFBD0 /* UsernameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA16971B2CDE40009CFBD0 /* UsernameTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +30,14 @@
 		B0BA166C1B2CD79E009CFBD0 /* StudentAanHuis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentAanHuis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BA16701B2CD79E009CFBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0BA16711B2CD79E009CFBD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0BA16731B2CD79E009CFBD0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B0BA16751B2CD79E009CFBD0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		B0BA16781B2CD79E009CFBD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0BA16781B2CD79E009CFBD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboardIPhone.storyboard; sourceTree = "<group>"; };
 		B0BA167A1B2CD79E009CFBD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0BA167D1B2CD79E009CFBD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B0BA16831B2CD79F009CFBD0 /* StudentAanHuisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentAanHuisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BA16881B2CD79F009CFBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0BA16891B2CD79F009CFBD0 /* StudentAanHuisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAanHuisTests.swift; sourceTree = "<group>"; };
+		B0BA16951B2CD8D8009CFBD0 /* PinBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinBoardViewController.swift; sourceTree = "<group>"; };
+		B0BA16971B2CDE40009CFBD0 /* UsernameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				B0BA16711B2CD79E009CFBD0 /* AppDelegate.swift */,
-				B0BA16731B2CD79E009CFBD0 /* FirstViewController.swift */,
-				B0BA16751B2CD79E009CFBD0 /* SecondViewController.swift */,
-				B0BA16771B2CD79E009CFBD0 /* Main.storyboard */,
+				B0BA16771B2CD79E009CFBD0 /* MainStoryboardIPhone.storyboard */,
 				B0BA167A1B2CD79E009CFBD0 /* Images.xcassets */,
 				B0BA167C1B2CD79E009CFBD0 /* LaunchScreen.xib */,
 				B0BA166F1B2CD79E009CFBD0 /* Supporting Files */,
+				B0BA16951B2CD8D8009CFBD0 /* PinBoardViewController.swift */,
+				B0BA16971B2CDE40009CFBD0 /* UsernameTableViewCell.swift */,
 			);
 			path = StudentAanHuis;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BA16791B2CD79E009CFBD0 /* Main.storyboard in Resources */,
+				B0BA16791B2CD79E009CFBD0 /* MainStoryboardIPhone.storyboard in Resources */,
 				B0BA167E1B2CD79E009CFBD0 /* LaunchScreen.xib in Resources */,
 				B0BA167B1B2CD79E009CFBD0 /* Images.xcassets in Resources */,
 			);
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BA16761B2CD79E009CFBD0 /* SecondViewController.swift in Sources */,
 				B0BA16721B2CD79E009CFBD0 /* AppDelegate.swift in Sources */,
-				B0BA16741B2CD79E009CFBD0 /* FirstViewController.swift in Sources */,
+				B0BA16981B2CDE40009CFBD0 /* UsernameTableViewCell.swift in Sources */,
+				B0BA16961B2CD8D8009CFBD0 /* PinBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,12 +240,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0BA16771B2CD79E009CFBD0 /* Main.storyboard */ = {
+		B0BA16771B2CD79E009CFBD0 /* MainStoryboardIPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B0BA16781B2CD79E009CFBD0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainStoryboardIPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		B0BA167C1B2CD79E009CFBD0 /* LaunchScreen.xib */ = {
@@ -415,6 +415,7 @@
 				B0BA168F1B2CD79F009CFBD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0BA16901B2CD79F009CFBD0 /* Build configuration list for PBXNativeTarget "StudentAanHuisTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				B0BA16921B2CD79F009CFBD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
